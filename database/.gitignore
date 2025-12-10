@@ -1,0 +1,36 @@
+# -------------------------------------
+# ENVIRONMENT FILES (DO NOT COMMIT SECRETS)
+# -------------------------------------
+.env
+.env.*
+
+# -------------------------------------
+# POSTGRES DATA (VERY IMPORTANT)
+# The DB files must never be committed
+# -------------------------------------
+data/postgres/
+data/postgres/*
+data/postgres/**
+
+
+# -------------------------------------
+# POSTGRES BACKUPS
+# -------------------------------------
+data/backups/
+*.sql
+
+
+# -------------------------------------
+# DOCKER FILES
+# -------------------------------------
+# Docker runtime data
+*.pid
+*.log
+docker-compose.override.yml
+
+
+# -------------------------------------
+# OS / EDITOR JUNK
+# -------------------------------------
+.vscode/
+
